@@ -8,7 +8,7 @@
 
 // let book = {
 //     name: 'Дракула (Мара)',
-//     page: '210'',
+//     page: 210,
 //     genre: 'трейлер'
 // }
 
@@ -16,7 +16,7 @@
 
 // let book = {
 //     name: 'Пів короля',
-//     page: '296',
+//     page: 296,
 //     genre: 'фентезі',
 //     authors: {
 //         authors1:'Джо Аберкромбі',
@@ -30,7 +30,7 @@
 // let arrBook = []
 //  arrBook[0] = {
 //      name: 'Пів короля',
-//      page: '296',
+//      page: 296,
 //      genre: 'фентезі',
 //      authors: {
 //          authors1:'Джо Аберкромбі',
@@ -39,19 +39,19 @@
 // }
 // arrBook[1] = {
 //     name: 'Рухомі картинки',
-//     page: '448',
+//     page: 448,
 //     genre: 'фентезі',
 //     authors:'Террі Пратчетт'
 // }
 // arrBook[2] = {
 //     name: 'Піраміди',
-//     page: '376',
+//     page: 376,
 //     genre: 'фентезі',
 //     authors:'Террі Пратчетт'
 // }
 // arrBook[3] = {
 //     name: 'ПДев’ятий Дім',
-//     page: '528296',
+//     page: 960,
 //     genre: 'фентезі',
 //     authors:'Лі Бардуґо'
 // }
@@ -70,7 +70,7 @@
 // let heightC =10;
 // let dC = 4;
 // const Pi = 3.14
-// let v = heightC*Pi*dC;
+// let v = heightC*Pi*(dC/2)**2;
 // console.log (v)
 
 // Завдання7
