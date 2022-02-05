@@ -55,7 +55,7 @@
 
 // let arr = [10,20,30,40,50,60,70,80,90,100]
 // for (let i = 0; i < arr.length; i++) {
-//     const arrElement = arr[i];
+//     let arrElement = arr[i];
 //     console.log (arrElement)
 //
 // }
@@ -64,7 +64,7 @@
 
 // let arr = ['artem','max','anna','oleg','pasha','artem','max','anna','oleg','pasha']
 // for (let i = 0; i < arr.length; i++) {
-//     const arrElement = arr[i];
+//     let arrElement = arr[i];
 //     console.log (arrElement)
 // }
 
@@ -72,7 +72,7 @@
 
 // let arr = ['artem',1,'anna',5,true,false, {},60,'oleg',100]
 // for (let i = 0; i < arr.length; i++) {
-//     const arrElement = arr[i];
+//     let arrElement = arr[i];
 //     console.log (arrElement)
 // }
 
@@ -81,7 +81,7 @@
 
 // let arr = ['artem',1,'anna',5,true,false, 10,true,'oleg',100]
 // for (let i = 0; i < arr.length; i++) {
-//     const arrElement = arr[i]
+//     let arrElement = arr[i]
 //     if (typeof arrElement === "boolean" ) {
 //         console.log(arrElement)
 //     }
@@ -92,7 +92,7 @@
 
 // let arr = ['artem',1,'anna',5,true,false, 10,true,'oleg',100]
 // for (let i = 0; i < arr.length; i++) {
-//     const arrElement = arr[i]
+//     let arrElement = arr[i]
 //     if (typeof arrElement === "number" ) {
 //         console.log(arrElement)
 //     }
