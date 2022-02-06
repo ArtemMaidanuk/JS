@@ -164,15 +164,16 @@
 // З'єднати в один об'єкт користувача та місто з відповідними "id" та "user_id" .
 //     Записати цей об'єкт в новий масив
 
-
+// let userCities = [];
 // for (let user of usersWithId) {
 //     for (let city of citiesWithId) {
 //         if (user.id === city.user_id){
 //             user.live = city;
+//             userCities.push(user) ;
 //         }
 //     }
 // }
-// console.log(usersWithId);
+// console.log(userCities);
 
 // Взяти масив з 10 чисел або створити його. Вивести в консоль тільки ті елементи, значення яких є парними.
 
