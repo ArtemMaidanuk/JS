@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .favor {
+        margin:20px;
+        border: 2px solid black;
+        width: 100px;
+        background: cornflowerblue;
+        text-align: center;
+    }
+</style>
+<body>
+<script>
+    let pars = JSON.parse(localStorage.getItem('favorites'));
+    for (const parseElement of pars) {
+        let div = document.createElement('div');
+        div.classList.add('favor')
+        div.innerHTML = `${parseElement.name}, </br>${parseElement.age}, </br>${parseElement.status}, </br>`
+        document.body.append(div)
+    }
+
+
+</script>
+</body>
+</html>
